@@ -14,6 +14,7 @@ y = df['Price']
 
 #x is is not in normalized form, so we need to normalize it y using scaler.fit_transform
 # this will convert it into a matrix of values ranging from -1 to 1
+#Please note: The variables should not be dependent on each other
 print(X.head())
 X[['Mileage','Cylinder', 'Doors']] = scaler.fit_transform(X[['Mileage','Cylinder', 'Doors']].as_matrix())
 print(X.head())
