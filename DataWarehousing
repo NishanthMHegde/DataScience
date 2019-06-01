@@ -1,0 +1,27 @@
+Data warehouse is a collection of large amounts of data which is centralized.
+This data is present in a particular form which can have a schema or a particular method of representation
+and is queries by using SQL queries or a tool like Tableu. NoSQL databases can also be used.
+Data warehousing is often present as a seperate department in companies which have or need
+large amounts of data like Amazon, Google , e-commerce websites ike Flipkart, etc.
+
+There are two common ways of managing data. They are ETL and ELT.
+
+1. ETL (Extract, transform and load): This is a traditional method of data warehousing. In this method,
+the data that is required is first extracted. Data can be extracted from multiple sources like internet forms, web forms 
+or web logs.
+After the data extraction process is complete, this data is transformed into a form which can be used to co-relate values
+from different databases and use a column of one table with a column of another table. For this a particular schema is required
+and the transform step transforms the extracted data into a form which is organized and consumable.
+The load step is used to load the transformed data i
+nto the data warehouse so that the data can be analysed and used
+by the data scientists or big data experts/operators.
+This process can however get tricky if we were to deal with big data or large volumes of data.
+
+
+2. ELT (Extract, load and transform): This method bucks the traditional form of data warehousing and is used by industries
+which have the capability to use Big Data principles or tools like Hadoop or Hive to work with big data.
+In this method, the data is first extracted from different sources like web logs.
+This data is then loaded as-is into the data warehouse.
+Big data tools like Hadoop and Mapreduce are used to transform the big data in-place into the required schema/format
+which can be used for data analysis in the data warehouse. This step is not computationally expensive and saves a lot
+of time.
