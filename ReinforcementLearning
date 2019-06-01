@@ -1,0 +1,33 @@
+Reinforcement Learning
+
+In this learning there is an agent which is present in an environment.
+As this agent moves through the environment and expores different spaces,
+it learns new things.
+The values for each of the steps taken can now be used to inform the agent about its
+future decisions when it moves to new territories/space within the environment.
+
+Different types of Reinforcement Learning are:
+
+1. Q-Learning: In this method the agent moves through the space 's' and performs an action 'a'.
+	Terminologies:
+	's' is the state of the agent
+	'a' is the set of actions which the agent takes to move from one state to another.
+	If a positive action is performed, then a reward is given. 
+	If a negetive action is performed, then a penalty is levied.
+	For every reward, the Q value (Q(s,a)) for that particular action 'a' when in a space 's' is
+	increased and for every penalty, the Q value (Q(s,a)) for that particular action 'a' when in a space 's' is
+	decreased.
+
+2. The exploration problem: To explore most of the space and most of the path, we chose the action with highest Q value.
+	If it is a tie, then we choose at random. However, the problem with this approach is that we might miss a 
+	lot of paths along the way.
+	To ensure more exploration, choose an epsilon term. If a random number is less than the epsilon number
+	then choose at random. Otherwise follow the action with highest Q. 
+	The problem with this approach is to find the appropriate epsilon term.
+
+2. Markov's Decision Process: Decision making where the outcomes are random and the actions taken partly depend on 
+	something random, like the Q value.
+
+3. Dynamic programming: A complex problem is broken down into smaller sub-problems and the solutions to these
+	sub-problems are stored in a memory datastructure and is then re-used in future for decision making
+	processes. This reduces computation time but also requires some modest memory for storage.
