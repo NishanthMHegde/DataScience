@@ -1,0 +1,25 @@
+Bias and Variance
+
+Bias: We take the mean of all our predictions and check how far the mean of predictions is from the 
+	actual real value. If the mean of our predictions is very far from real value, then it means that
+	our predictions are highly biased. Bias can be in different directions as well.
+
+Variance: Variance is how far our all our predictions our scattered around our observation. High variation
+implies very high scattering of all our predictions from the real value.
+
+4 scenarios: 
+ a. Low bias high variance
+ b. High bias low variance
+ c. Low bias low variance (ideal real world expectations)
+ d. High bias high variance
+
+ In the ideal world, we should work towards reducing the error and not towards reducing the variance of bias.
+ Error is usually computed by the formula:
+ error = bias*bias + variance
+
+ Variance and bias come into picture during the over-fitting or under-fitting of data.
+
+ When a data is fit properly, there will be very less variance and moderate bias.
+ When there is over-fitting of data, the variance will be very high but the bias will be very low.
+ We need to reduce error which is inevitable in over-fitting and underfitting of data.
+ We need to arrive at a proper balance.
