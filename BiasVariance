@@ -22,4 +22,4 @@ implies very high scattering of all our predictions from the real value.
  When a data is fit properly, there will be very less variance and moderate bias.
  When there is over-fitting of data, the variance will be very high but the bias will be very low.
  We need to reduce error which is inevitable in over-fitting and underfitting of data.
- We need to arrive at a proper balance.
+ We need to arrive at a proper balance and look at the trade-off between bias and variance.
